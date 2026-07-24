@@ -414,12 +414,16 @@
     .phone:hover .play{ transform: scale(0.7); opacity: 0; }
   }
   .mute-icon{
-    position: absolute; z-index: 2; bottom: 12px; right: 12px;
+    position: absolute; z-index: 3; bottom: 12px; right: 12px;
     width: 26px; height: 26px; border-radius: 50%;
     background: rgba(20,21,14,0.55); backdrop-filter: blur(4px);
     display: flex; align-items: center; justify-content: center;
     font-size: 12px;
+    cursor: pointer;
+    border: none;
+    transition: transform .15s ease, background .15s ease;
   }
+  .mute-icon:hover{ background: rgba(20,21,14,0.8); transform: scale(1.1); }
   .phone video{
     position:absolute; inset:0; width:100%; height:100%; object-fit: cover;
   }
@@ -794,7 +798,7 @@
       <div class="niche-grid">
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#3A2A2E;--card-b:#241A1D;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="Fintech-01.MOV" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -803,7 +807,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#252A45;--card-b:#181B2E;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="Fintech-02.MOV" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -821,7 +825,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#1E3A2C;--card-b:#15281F;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="fintech-04.MOV" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -830,7 +834,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#2E2545;--card-b:#1E1930;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="fintech-05.MOV" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -843,7 +847,7 @@
       <div class="niche-grid">
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#3A2A2E;--card-b:#241A1D;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="apps-ai-tech-05.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -852,7 +856,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#252A45;--card-b:#181B2E;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="Apps-ai-tech-02.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -870,7 +874,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#1E3A2C;--card-b:#15281F;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="ai-app-03.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -879,7 +883,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#2E2545;--card-b:#1E1930;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="apps-ai-tech-04.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -892,7 +896,7 @@
       <div class="niche-grid">
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#3A2A2E;--card-b:#241A1D;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="health-02.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -901,7 +905,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#252A45;--card-b:#181B2E;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="health-03.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -919,7 +923,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#1E3A2C;--card-b:#15281F;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="health-04.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -928,7 +932,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#2E2545;--card-b:#1E1930;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="health-05.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -941,7 +945,7 @@
       <div class="niche-grid">
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#3A2A2E;--card-b:#241A1D;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="fashion-beauty-02.MOV" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -950,7 +954,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#252A45;--card-b:#181B2E;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="sahion-beauty.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -968,7 +972,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#1E3A2C;--card-b:#15281F;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="fashion-beauty.MOV" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -977,7 +981,7 @@
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#2E2545;--card-b:#1E1930;">
-          <video muted loop playsinline preload="metadata">
+          <video loop playsinline preload="metadata">
             <source src="fashion-new.MP4" type="video/mp4">
           </video>
           <span class="play"></span>
@@ -1187,6 +1191,9 @@
       document.querySelectorAll('.niche-panel').forEach(p=>{
         p.classList.remove('active');
         p.querySelectorAll('.phone:not(.featured) video').forEach(v=>{ v.pause(); v.currentTime = 0.05; });
+        const fv = p.querySelector('.phone.featured video');
+        const fIcon = p.querySelector('.phone.featured .mute-icon');
+        if(fv && !fv.muted){ fv.muted = true; if(fIcon) fIcon.textContent = '\u{1F507}'; }
       });
       const panel = document.getElementById(btn.dataset.target);
       panel.classList.add('active');
@@ -1238,6 +1245,18 @@
     v.addEventListener('loadeddata', tryPlay);
     v.addEventListener('pause', ()=>{
       if(v.closest('.niche-panel').classList.contains('active')) tryPlay();
+    });
+  });
+
+  // tap the speaker icon on a featured card to toggle sound (autoplay must start muted; a click is a real gesture so unmuting here is allowed)
+  document.querySelectorAll('.phone.featured').forEach(phone=>{
+    const icon = phone.querySelector('.mute-icon');
+    const video = phone.querySelector('video');
+    if(!icon || !video) return;
+    icon.addEventListener('click', (e)=>{
+      e.stopPropagation();
+      video.muted = !video.muted;
+      icon.textContent = video.muted ? '\u{1F507}' : '\u{1F50A}';
     });
   });
 </script>
