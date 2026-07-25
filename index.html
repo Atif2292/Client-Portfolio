@@ -404,6 +404,8 @@
   }
   .phone .play{ transition: transform .3s ease, opacity .3s ease; }
   .phone.featured .play{ display: none; }
+  .phone.is-playing{ box-shadow: 0 18px 34px -14px rgba(21,22,28,0.4), 0 0 0 3px var(--signal); }
+  .phone.is-playing .play{ opacity: 0; transform: scale(0.7); }
   @media (hover: hover) and (pointer: fine){
     .phone:hover{
       transform: translateY(-10px) scale(1.12);
@@ -807,7 +809,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Explainer</div><div class="niche">Fintech · [Brand A]</div></div>
+        <div class="reel-caption"><div class="tag">Explainer</div><div class="niche">Fintech</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#252A45;--card-b:#181B2E;">
@@ -816,7 +818,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Testimonial</div><div class="niche">Fintech · [Brand B]</div></div>
+        <div class="reel-caption"><div class="tag">Testimonial</div><div class="niche">Fintech</div></div>
       </div>
       <div class="reel-card reveal featured-card">
         <div class="phone featured" style="--card-a:#463823;--card-b:#2C2415;">
@@ -825,7 +827,7 @@
           </video>
           <span class="play"></span><span class="mute-icon">&#128263;</span>
         </div>
-        <div class="reel-caption"><div class="tag">App Walkthrough</div><div class="niche">Fintech · [Brand C]</div></div>
+        <div class="reel-caption"><div class="tag">App Walkthrough</div><div class="niche">Fintech</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#1E3A2C;--card-b:#15281F;">
@@ -834,7 +836,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Problem / Solution</div><div class="niche">Fintech · [Brand D]</div></div>
+        <div class="reel-caption"><div class="tag">Problem / Solution</div><div class="niche">Fintech</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#2E2545;--card-b:#1E1930;">
@@ -843,7 +845,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Trust Builder</div><div class="niche">Fintech · [Brand E]</div></div>
+        <div class="reel-caption"><div class="tag">Trust Builder</div><div class="niche">Fintech</div></div>
       </div>
     </div>
     </div>
@@ -856,7 +858,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Feature Demo</div><div class="niche">Tech · [Brand A]</div></div>
+        <div class="reel-caption"><div class="tag">Feature Demo</div><div class="niche">Tech</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#252A45;--card-b:#181B2E;">
@@ -865,7 +867,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Before / After</div><div class="niche">Tech · [Brand B]</div></div>
+        <div class="reel-caption"><div class="tag">Before / After</div><div class="niche">Tech</div></div>
       </div>
       <div class="reel-card reveal featured-card">
         <div class="phone featured" style="--card-a:#463823;--card-b:#2C2415;">
@@ -874,7 +876,7 @@
           </video>
           <span class="play"></span><span class="mute-icon">&#128263;</span>
         </div>
-        <div class="reel-caption"><div class="tag">Use Case</div><div class="niche">Tech · [Brand C]</div></div>
+        <div class="reel-caption"><div class="tag">Use Case</div><div class="niche">Tech</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#1E3A2C;--card-b:#15281F;">
@@ -883,7 +885,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Testimonial</div><div class="niche">Tech · [Brand D]</div></div>
+        <div class="reel-caption"><div class="tag">Testimonial</div><div class="niche">Tech</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#2E2545;--card-b:#1E1930;">
@@ -892,7 +894,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Quick Tutorial</div><div class="niche">Tech · [Brand E]</div></div>
+        <div class="reel-caption"><div class="tag">Quick Tutorial</div><div class="niche">Tech</div></div>
       </div>
     </div>
     </div>
@@ -905,7 +907,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Transformation</div><div class="niche">Fitness · [Brand A]</div></div>
+        <div class="reel-caption"><div class="tag">Transformation</div><div class="niche">Fitness</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#252A45;--card-b:#181B2E;">
@@ -914,7 +916,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Testimonial</div><div class="niche">Fitness · [Brand B]</div></div>
+        <div class="reel-caption"><div class="tag">Testimonial</div><div class="niche">Fitness</div></div>
       </div>
       <div class="reel-card reveal featured-card">
         <div class="phone featured" style="--card-a:#463823;--card-b:#2C2415;">
@@ -923,7 +925,7 @@
           </video>
           <span class="play"></span><span class="mute-icon">&#128263;</span>
         </div>
-        <div class="reel-caption"><div class="tag">Day in the Life</div><div class="niche">Fitness · [Brand C]</div></div>
+        <div class="reel-caption"><div class="tag">Day in the Life</div><div class="niche">Fitness</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#1E3A2C;--card-b:#15281F;">
@@ -932,7 +934,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Problem / Solution</div><div class="niche">Fitness · [Brand D]</div></div>
+        <div class="reel-caption"><div class="tag">Problem / Solution</div><div class="niche">Fitness</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#2E2545;--card-b:#1E1930;">
@@ -941,7 +943,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Product Demo</div><div class="niche">Fitness · [Brand E]</div></div>
+        <div class="reel-caption"><div class="tag">Product Demo</div><div class="niche">Fitness</div></div>
       </div>
     </div>
     </div>
@@ -954,7 +956,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Unboxing</div><div class="niche">Beauty · [Brand A]</div></div>
+        <div class="reel-caption"><div class="tag">Unboxing</div><div class="niche">Beauty</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#252A45;--card-b:#181B2E;">
@@ -963,7 +965,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Try-On Haul</div><div class="niche">Beauty · [Brand B]</div></div>
+        <div class="reel-caption"><div class="tag">Try-On Haul</div><div class="niche">Beauty</div></div>
       </div>
       <div class="reel-card reveal featured-card">
         <div class="phone featured" style="--card-a:#463823;--card-b:#2C2415;">
@@ -972,7 +974,7 @@
           </video>
           <span class="play"></span><span class="mute-icon">&#128263;</span>
         </div>
-        <div class="reel-caption"><div class="tag">GRWM</div><div class="niche">Beauty · [Brand C]</div></div>
+        <div class="reel-caption"><div class="tag">GRWM</div><div class="niche">Beauty</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#1E3A2C;--card-b:#15281F;">
@@ -981,7 +983,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Before / After</div><div class="niche">Beauty · [Brand D]</div></div>
+        <div class="reel-caption"><div class="tag">Before / After</div><div class="niche">Beauty</div></div>
       </div>
       <div class="reel-card reveal">
         <div class="phone" style="--card-a:#2E2545;--card-b:#1E1930;">
@@ -990,7 +992,7 @@
           </video>
           <span class="play"></span>
         </div>
-        <div class="reel-caption"><div class="tag">Testimonial</div><div class="niche">Beauty · [Brand E]</div></div>
+        <div class="reel-caption"><div class="tag">Testimonial</div><div class="niche">Beauty</div></div>
       </div>
     </div>
     </div>
@@ -1208,7 +1210,8 @@
   });
 
   // hover-to-play portfolio video cards (featured card always plays)
-  // only wired for real mouse hover, so a tap on touch devices doesn't get "stuck" popped/playing
+  // desktop: real mouse hover starts/stops playback, so a tap on touch devices doesn't get "stuck" popped/playing
+  // touch devices: tapping the card toggles play/pause instead, since there's no hover to rely on
   const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   document.querySelectorAll('.phone:not(.featured)').forEach(phone=>{
     const video = phone.querySelector('video');
@@ -1217,6 +1220,25 @@
     if(canHover){
       phone.addEventListener('mouseenter', ()=>{ video.currentTime = 0; video.play().catch(()=>{}); });
       phone.addEventListener('mouseleave', ()=>{ video.pause(); video.currentTime = 0.05; });
+    } else {
+      phone.addEventListener('click', ()=>{
+        if(video.paused){
+          document.querySelectorAll('.phone:not(.featured).is-playing').forEach(p=>{
+            if(p !== phone){
+              p.classList.remove('is-playing');
+              const pv = p.querySelector('video');
+              pv.pause(); pv.currentTime = 0.05;
+            }
+          });
+          video.currentTime = 0;
+          video.play().catch(()=>{});
+          phone.classList.add('is-playing');
+        } else {
+          video.pause();
+          video.currentTime = 0.05;
+          phone.classList.remove('is-playing');
+        }
+      });
     }
   });
 
